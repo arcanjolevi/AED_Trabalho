@@ -1,0 +1,114 @@
+AZU2614 E195 Guarulhos GRU 15:01 Rio de Janeiro * SDU 00:40
+GLO1090 B738 Guarulhos GRU 18:07 Rio de Janeiro * SDU 00:40
+TAM3111 A320 Guarulhos GRU 23:15 Rio de Janeiro * GIG 01:00
+TAM9109 A320 Guarulhos GRU 00;27 Salvador * SVD 02:05
+GLO1620 B738 Guarulhos GRU 01:36 Recife * REC 02:56
+GLO1646 B738 Guarulhos GRU 01:38 Manaus * MNS 03:34
+TAM3582 A321 Guarulhos GRU 01:37 Rio de Janeiro * GIG 01:00
+TAM3582 A320 Guarulhos GRU 09:48 Rio de Janeiro * GIG 01:00
+GLO1680 B738 Guarulhos GRU 07:58 Belem * BEL 03:28
+GLO1681 B737 Guarulhos GRU 16:53 Belem * BEL 03:28
+GLO1682 B738 Guarulhos GRU 18:51 Belem * BEL 03:28
+GLO1683 B737 Guarulhos GRU 02:32 Belem * BEL 03:28
+GLO1698 B738 Guarulhos GRU 05:34 Salvador * SVD 01:57
+GLO1699 B737 Guarulhos GRU 03:14 Salvador * SVD 01:57
+AZU4276 E195 Guarulhos GRU 03:54 Brasilia * BSB 01:22
+GLO1562 B737 Guarulhos GRU 03:24 Juazeiro do Norte * JDN 02:49
+GLO1563 B737 Guarulhos GRU 04:35 Juazeiro do Norte * JDN 02:49
+GLO1564 B738 Guarulhos GRU 04:56 Juazeiro do Norte * JDN 02:49
+GLO1565 B738 Guarulhos GRU 04:17 Juazeiro do Norte * JDN 02:49
+ONE6350 A320 Guarulhos GRU 04:48 Natal * NTL 03:20
+TAM3148 A321 Guarulhos GRU 05:56 Fortaleza * FLZ 03:10
+TAM3373 A320 Guarulhos GRU 05:56 Porto Alegre * POA 01:30
+TAM3407 A321 Guarulhos GRU 05:08 Natal * NTL 03:00
+TAM3496 A320 Guarulhos GRU 05:03 Confins * CNF 01:05
+TAM4707 A320 Guarulhos GRU 06:12 Confins * CNF 01:05
+GLO1121 B738 Guarulhos GRU 06:13 Curitiba * CTW 00:45
+GLO1122 B737 Guarulhos GRU 06:22 Porto Alegre * POA 01:45
+GLO1123 B737 Guarulhos GRU 06:25 Rio de Janeiro * SDU 00:45
+GLO1124 B738 Guarulhos GRU 07:38 Curitiba * CTW 00:45
+ONE6350 A320 Guarulhos GRU 07:31 Natal * NTL 03:20
+TAM4540 A321 Guarulhos GRU 07:43 Fortaleza * FLZ 03:10 
+TAM3148 A321 Guarulhos GRU 07:48 Fortaleza * FLZ 03:10
+TAM3407 A321 Guarulhos GRU 07:52 Natal * NTL 03:00
+TAM3423 A321 Guarulhos GRU 08:54 Brasilia * BSB 01:30
+TAM4540 A321 Guarulhos GRU 08:05 Fortaleza * FLZ 03:10
+AZU2452 A320 Guarulhos GRU 08:16 Porto Alegre * POA 01:24
+AZU2453 E195 Guarulhos GRU 08:15 Porto Alegre * POA 01:28
+AZU4276 E195 Guarulhos GRU 09:26 Brasilia * BSB 01:22
+AZU5333 A320 Guarulhos GRU 09:27 Porto Alegre * POA 01:24
+GLO1600 B738 Guarulhos GRU 09:38 Porto velho * PTV 03:27
+GLO1601 B738 Guarulhos GRU 09:39 Porto velho * PTV 03:27
+GLO1602 B737 Guarulhos GRU 11:41 Porto velho * PTV 03:27
+ONE6364 A320 Guarulhos GRU 11:42 Maceio * MCM 02:55
+ONE6176 A320 Guarulhos GRU 11:53 Florianopolis * FLN 01:20
+ONE6394 A320 Guarulhos GRU 11:54 Fortaleza * FLZ 03:25
+TAM4600 A320 Guarulhos GRU 12:55 Brasilia * BSB 01:30
+AZU4276 E195 Guarulhos GRU 12:56 Brasilia * BSB 01:22
+AZU6933 A320 Guarulhos GRU 12:07 Porto Alegre * POA 01:24
+GLO1596 B738 Guarulhos GRU 12:18 Sao Luis * SLS 03:10
+ONE6054 A320 Guarulhos GRU 13:19 Salvador * SVD 02:00
+ONE6322 A320 Guarulhos GRU 13:21 Recife * REC 03:05
+TAM3684 A319 Guarulhos GRU 13:22 Rio Branco * RBR 03:50
+TAM3746 B763 Guarulhos GRU 13:33 Manaus * MNS 03:30
+AZU4276 E195 Guarulhos GRU 14:34 Brasilia * BSB 012:2
+GLO7642 B738 Guarulhos GRU 14:45 Asuncion * ASU 01:45
+PTB2262 AT72 Guarulhos GRU 14:46 Riberao Preto * RBP 00:55
+GLO1118 B738 Guarulhos GRU 14:57 Fortaleza * FLZ 03:20
+GLO1523 B738 Guarulhos GRU 23:59 Fortaleza * FLZ 03:20
+GLO1524 B737 Guarulhos GRU 16:00 Fortaleza * FLZ 03:20
+TAM3324 A320 Guarulhos GRU 15:06 Porto velho * PTV 03:08
+SID9307 B733 Guarulhos GRU 15:15 Brasilia * BSB 01:20
+SID9523 B733 Guarulhos GRU 16:14 Recife * REC 02:45
+SID9521 B733 Guarulhos GRU 16:23 Goiania * GYD 01:15
+GLO9145 B738 Guarulhos GRU 16:23 Salvador * SVD 01:57
+SID9305 B734 Guarulhos GRU 16:33 Brasilia * BSB 011:5
+SID9303 B734 Guarulhos GRU 17:32 Salvador * SVD 01:58
+SID9415 B722 Guarulhos GRU 17:41 Brasilia * BSB 01:15
+SID9525 B734 Guarulhos GRU 17:49 Recife * REC 02:45
+TTL5679 B722 Guarulhos GRU 17:58 Porto Alegre * POA 01:18
+TTL5681 B722 Guarulhos GRU 18:53 Curitiba * CTW 00:40
+ONE6376 A320 Guarulhos GRU 18:50 Juazeiro do Norte * JDN 02:55
+AZU2488 A320 Guarulhos GRU 16:54 Recife * REC 02:41
+AZU2489 A320 Guarulhos GRU 18:05 Recife * REC 02:41
+AZU5001 A320 Guarulhos GRU 19:00 Vitoria * VIX 01:08
+GLO9081 B738 Guarulhos GRU 19:15 Goiania * GYD 01:15
+AZU2410 A320 Guarulhos GRU 19:10 Confins * CNF 00:46
+AZU2412 A320 Guarulhos GRU 09:20 Confins * CNF 00:46
+AZU2400 E195 Guarulhos GRU 21:20 Rio de Janeiro * SDU 00:40
+AZU2413 A320 Guarulhos GRU 21:30 Confins * CNF 00:46
+AZU2900 E195 Guarulhos GRU 21:30 Porto Alegre * POA 01:28
+AZU4052 A320 Guarulhos GRU 21:40 Goiania * GYD 01:19
+AZU4953 A320 Guarulhos GRU 22:40 Florianopolis * FLN 00:59
+ONE6040 A320 Guarulhos GRU 22:50 Salvador * SVD 02:25
+AZU4953 A320 Guarulhos GRU 08:55 Florianopolis * FLN 00:59
+AZU4954 A320 Guarulhos GRU 14:05 Florianopolis * FLN 00:59
+GLO1264 B738 Guarulhos GRU 19:05 Florianopolis * FLN 01:04
+GLO1265 B737 Guarulhos GRU 23:15 Florianopolis * FLN 01:04
+GLO1266 B737 Guarulhos GRU 02:15 Florianopolis * FLN 01:04
+TAM4554 A321 Guarulhos GRU 23:25 Belem * BEL 03:10
+TAM4555 A321 Guarulhos GRU 07:20 Belem * BEL 03:10
+TAM3391 A321 Guarulhos GRU 07:35 Foz do Iguacu * IGU 01:30
+TAM4538 A320 Guarulhos GRU 07:35 Vitoria * VIX 01:20
+AZU4035 E195 Guarulhos GRU 07:40 Curitiba * CTW 00:44
+TAM3299 A321 Guarulhos GRU 07:40 Fortaleza * FLZ 031:0
+AZU2604 A320 Guarulhos GRU 07:55 Cuiaba * CYB 02:01
+AZU2605 A320 Guarulhos GRU 01:55 Cuiaba * CYB 02:01
+AZU2900 E195 Guarulhos GRU 08:00 Porto Alegre * POA 01:28
+AZU4035 E195 Guarulhos GRU 08:00 Curitiba * CTW 00:44
+GLO9600 B738 Guarulhos GRU 08:10 Porto Seguro * PTS 02:05
+TAM3686 A320 Guarulhos GRU 08:10 Uberlandia * UBL 01:05
+TAM4554 A321 Guarulhos GRU 08:20 Belem * BEL 03:10
+TAM4592 A321 Guarulhos GRU 08:20 Manaus * MNS 03:30
+AZU2604 A320 Guarulhos GRU 08:35 Cuiaba * CYB 02:01
+AZU2607 A320 Guarulhos GRU 03:35 Cuiaba * CYB 02:01
+GLO9604 B738 Guarulhos GRU 08:40 Porto Seguro * PTS 02:05
+TAM8026 B763 Guarulhos GRU 08:45 Santiago * CHL 04:00
+GLO1091 B738 Guarulhos GRU 05:50 Rio de Janeiro * GIG 00:55
+GLO1092 B737 Guarulhos GRU 06:50 Rio de Janeiro * GIG 00:55
+GLO1093 B738 Guarulhos GRU 08:00 Rio de Janeiro * GIG 00:55
+GLO1094 B737 Guarulhos GRU 09:10 Rio de Janeiro * GIG 00:55
+GLO1095 B737 Guarulhos GRU 11:50 Rio de Janeiro * GIG 00:55
+GLO1096 B738 Guarulhos GRU 09:50 Rio de Janeiro * GIG 00:55
+GLO9190 B738 Guarulhos GRU 09:50 Porto Alegre * POA 01:31
+TAM3157 A320 Guarulhos GRU 09:50 Curitiba * CTW 00:45

@@ -1,0 +1,54 @@
+Taxa de aceitação estimada de 72% a 73%.
+Relatorio de Teste Voo:
+
+Thu Apr 18 13:18:35 2019
+
+590 dos 1000 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Mon Apr 22 23:45:29 2019
+
+1 dos 1 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Mon Apr 22 23:45:55 2019
+
+1 dos 1 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Mon Apr 22 23:46:00 2019
+
+1 dos 1 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Tue Apr 23 00:10:47 2019
+
+722 dos 1000 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Tue Apr 23 00:11:12 2019
+
+717 dos 1000 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Tue Apr 23 00:13:36 2019
+
+717 dos 1000 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Tue Apr 23 00:17:51 2019
+
+726 dos 1000 clients foram registrados.
+72% a 73% das pessoas enviadas são validas, o restante são invalidos.
+Relatorio de Teste Voo:
+
+Tue Apr 23 00:38:22 2019
+
+724 dos 1000 clients foram registrados.

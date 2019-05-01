@@ -1,0 +1,11 @@
+SMILES;Joao da Silva;11111111111;Prata;40000
+MULTIPLUS;Maria da Silva;22222222222;Ouro;70000
+MUltiplus;Acácio Zeferino Neto;15928523487;Ouro;9876
+SMILES;Agaton Augusto Pereira;Madeira;12345676543;Diamante;09876
+SMILES;Alan Bartoski;12345687698;BRONZE;12343
+FIDELIDADE;Ali Hussein Tachtach;34565467876;Ouro;8776
+MULTIPLUS;Allan Richard Reizner Nunes;21378973287;Prata;36543
+MILHAS pra voce;Bruna Pletikoszits Andrade Parcianello;Diamante;123123123
+FIDELIDADE;Bruno José Assis;14357614356;Ouro;23123
+SMILES;Camila Alessandra Broetto;09876543321;Bronze;12343
+Multiplus;Carlos Alexandre Ferreira da Silva;87623034854;Prata;123456

@@ -1,0 +1,5 @@
+/*
+ * Descrição da função
+ * -> Entrada
+ * <- Saida
+*/

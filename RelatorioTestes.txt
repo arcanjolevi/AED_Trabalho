@@ -1,0 +1,117 @@
+Relatorio de Testes:
+
+Thu Apr 18 13:18:20 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+250 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+601 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Thu Apr 18 23:41:11 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+239 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+583 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Mon Apr 22 23:45:10 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+1 dos 1 voos foram registrados.
+1 das 1 aeronaves foram registrados.
+1 dos 1 clients foram registrados.
+
+Relatorio de Testes:
+
+Mon Apr 22 23:45:57 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+1 dos 1 voos foram registrados.
+1 das 1 aeronaves foram registrados.
+1 dos 1 clients foram registrados.
+
+Relatorio de Testes:
+
+Mon Apr 22 23:45:58 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+1 dos 1 voos foram registrados.
+1 das 1 aeronaves foram registrados.
+1 dos 1 clients foram registrados.
+
+Relatorio de Testes:
+
+Mon Apr 22 23:45:59 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+1 dos 1 voos foram registrados.
+1 das 1 aeronaves foram registrados.
+1 dos 1 clients foram registrados.
+
+Relatorio de Testes:
+
+Tue Apr 23 00:14:01 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+667 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+721 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Tue Apr 23 00:17:13 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+666 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+719 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Tue Apr 23 00:18:03 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+667 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+732 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Tue Apr 23 00:20:45 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+666 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+707 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Tue Apr 23 00:20:57 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+665 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+728 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Tue Apr 23 00:21:00 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+664 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+723 dos 1000 clients foram registrados.
+
+Relatorio de Testes:
+
+Tue Apr 23 00:38:52 2019
+
+Taxa de aceitação estimada para voo de 66%, aeronaves de 100%, e clients de 72 a 73%.
+664 dos 1000 voos foram registrados.
+1000 das 1000 aeronaves foram registrados.
+721 dos 1000 clients foram registrados.
+
