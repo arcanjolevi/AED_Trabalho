@@ -114,7 +114,7 @@ void CallPlaneTest(){
     printf("\n\nClique qualquer tecla para voltar ao menu.");
     getchar();
 }
-void InsereArquivo(Lista_Cliente **client,Lista_Voo **voo){
+void InsertFile(Lista_Cliente **client,Lista_Voo **voo){
     FILE *arquivo;
     char temp;
     char tempo[100];
