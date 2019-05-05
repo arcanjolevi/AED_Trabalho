@@ -53,7 +53,7 @@ void CallPlaneTest();
  * Pré-condição: Nenhuma.
  * Pós-condição: Lista alterada.
  */
-void InsereArquivo(Lista_Cliente **client,Lista_Voo **voo);
+void InsertFile(Lista_Cliente **client,Lista_Voo **voo);
 
 
 #endif // INTERACOESAERONAVE_H
