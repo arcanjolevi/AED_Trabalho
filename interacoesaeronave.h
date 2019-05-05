@@ -50,6 +50,9 @@ void showPlaneTerminal(Lista_Plane **v);
 void CallPlaneTest();
 /*
  * Lê um arquivo com as entradas.
+ * -> Endereço de ponteiro para lista de client
+ * -> Endereço de ponteiro para lista de voo
+ * <- Sem retorno
  * Pré-condição: Nenhuma.
  * Pós-condição: Lista alterada.
  */
