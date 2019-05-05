@@ -3,6 +3,7 @@
 
 
 #include <string.h>
+#include <stdio.h>
 #include "lista_aeronave.h"
 #include "validacao.h"
 #include "estruturas.h"
@@ -46,6 +47,12 @@ void showPlaneTerminal(Lista_Plane **v);
  * Pós-condição: Nunhuma.
  */
 void CallPlaneTest();
+/*
+ * Lê um arquivo com as entradas.
+ * Pré-condição: Nenhuma.
+ * Pós-condição: Lista alterada.
+ */
+void InsereArquivo(Lista_Cliente **client,Lista_Voo **voo);
 
 
 #endif // INTERACOESAERONAVE_H
