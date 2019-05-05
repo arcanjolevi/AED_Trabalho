@@ -8,6 +8,7 @@
 #include "validacao.h"
 #include "estruturas.h"
 #include "relatoriotesteaeronave.h"
+#define ENTRADALISTAS "/home/lucas/materias_faculdade/IES/ProgramaIES_5_AGORAVAI/entrada.txt"
 
 /* Insere uma aeronave via terminal
  * -> Endereço de ponteiro para lista
