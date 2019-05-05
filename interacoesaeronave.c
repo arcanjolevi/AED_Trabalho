@@ -169,6 +169,7 @@ void InsereArquivo(Lista_Cliente **client,Lista_Voo **voo){
     free(pessoa.nome);
     free(pessoa.programa);
     fclose(arquivo);
+    printf("Pressione qualquer tecla para voltar ao menu\n:");
     getchar();
 }
 
