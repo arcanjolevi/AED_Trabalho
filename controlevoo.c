@@ -126,17 +126,15 @@ void changeFlight(Flight *a, Flight *b){
 }
 
 void printFlight(Flight voo){
-    
+        
     printf("    Prefixo: %s\n", voo.prefixo);
-    printf("    Origem: %s", voo.nomeO);
-    printf("    %s\n", voo.siglaO);
-    printf("    Destino: %s", voo.nomeD);
-    printf("    %s\n", voo.siglaD);
+    printf("    Origem: %s\n", voo.siglaO);
+    printf("    Destino: %s\n", voo.siglaD);
     printf("    Sai: %s", voo.horaP);
     printf("    Chega: %s\n", voo.horaC);
     printf("    Duração: %s\n", voo.duracao);
     printf("    Aeronave: %s\n", voo.tipo);
     printf("---------------------------------------\n");
-    
+       
 }
 
