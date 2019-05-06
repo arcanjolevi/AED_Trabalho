@@ -164,3 +164,14 @@ void returnStructClient(Lista_Cliente *v, Client *p, char *cpf){
         aux = aux->prox;
     }
 }
+
+void printListaClientDetails(Lista_Cliente * l){
+    while(l){
+        printf("-------------------------\n");
+        printClient(l->cliente);
+        printf("\n-----------------------");
+        l=l->prox;
+    }
+    printf("\n\nDigite qualquer tecla para voltar ao menu");
+    getchar();
+}

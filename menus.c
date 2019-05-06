@@ -250,7 +250,7 @@ void registerMenu(int *var, int tipoCadastro, int operacao){
 void funcAdmMenu(int *var, int tipoCadastro){ //IAR: voo = 0, cliente = 1, aeronave = 2
     char teclaPressionada = 0;
     int parteDoMenu = 0;
-    int inicioMenu = 0; int fimMenu = 4;
+    int inicioMenu = 0; int fimMenu = 5;
     while(teclaPressionada != 10){
         system("clear");
         printf("\n\n\n\n\n\n\n");
@@ -262,6 +262,7 @@ void funcAdmMenu(int *var, int tipoCadastro){ //IAR: voo = 0, cliente = 1, aeron
             printf("\t\t\t\t\t\t\t\t|-> Alterar %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Remover %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Mostrar %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Mostrar Lista Detalhada %-26s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Voltar %-43s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|________________________________________________________|\n\n\n");
             printf("\t\t\t\t\t\t\t\t                               \\ \n");
@@ -286,6 +287,7 @@ void funcAdmMenu(int *var, int tipoCadastro){ //IAR: voo = 0, cliente = 1, aeron
             printf("\t\t\t\t\t\t\t\t|-> Alterar %-42s[%c]|\n"," ",'*');
             printf("\t\t\t\t\t\t\t\t|-> Remover %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Mostrar %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Mostrar Lista Detalhada %-26s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Voltar %-43s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|________________________________________________________|\n\n\n");
             printf("\t\t\t\t\t\t\t\t                               \\ \n");
@@ -310,6 +312,7 @@ void funcAdmMenu(int *var, int tipoCadastro){ //IAR: voo = 0, cliente = 1, aeron
             printf("\t\t\t\t\t\t\t\t|-> Alterar %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Remover %-42s[%c]|\n"," ",'*');
             printf("\t\t\t\t\t\t\t\t|-> Mostrar %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Mostrar Lista Detalhada %-26s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Voltar %-43s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|________________________________________________________|\n\n\n");
             printf("\t\t\t\t\t\t\t\t                               \\ \n");
@@ -334,6 +337,7 @@ void funcAdmMenu(int *var, int tipoCadastro){ //IAR: voo = 0, cliente = 1, aeron
             printf("\t\t\t\t\t\t\t\t|-> Alterar %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Remover %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Mostrar %-42s[%c]|\n"," ",'*');
+            printf("\t\t\t\t\t\t\t\t|-> Mostrar Lista Detalhada %-26s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Voltar %-43s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|________________________________________________________|\n\n\n");
             printf("\t\t\t\t\t\t\t\t                               \\ \n");
@@ -358,6 +362,32 @@ void funcAdmMenu(int *var, int tipoCadastro){ //IAR: voo = 0, cliente = 1, aeron
             printf("\t\t\t\t\t\t\t\t|-> Alterar %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Remover %-42s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Mostrar %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Mostrar Lista Detalhada %-26s[%c]|\n"," ",'*');
+            printf("\t\t\t\t\t\t\t\t|-> Voltar %-43s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|________________________________________________________|\n\n\n");
+            printf("\t\t\t\t\t\t\t\t                               \\ \n");
+            printf("\t\t\t\t\t\t\t\t	       - \\- -           \\ \n");
+            printf("\t\t\t\t\t\t\t\t	     - -  \\- ____________\\__________ \n");
+            printf("\t\t\t\t\t\t\t\t	   - - - - \\___{}_O_O_O_O_/O_O_O__*_/>\n");
+            printf("\t\t\t\t\t\t\t\t	 - - - - - - - - - - -  /\n");
+            printf("\t\t\t\t\t\t\t\t                               /\n");
+            printf("\t\t\t\t\t\t\t\t                              /	\n");
+            teclaPressionada = getchChar();
+            if(movmentMenu(teclaPressionada,&parteDoMenu,inicioMenu,fimMenu)){
+                if(tipoCadastro == VOO){ //Mostrar Voo
+                    *var = 53;
+                }else if(tipoCadastro == CLIENTE){ //Mostrar Cliente
+                    *var = 52;
+                }else if(tipoCadastro == AERONAVE){ //Mostrar aeronave
+                    *var = 53;
+                }
+            }
+        }else if(parteDoMenu == 5){
+            printf("\t\t\t\t\t\t\t\t|-> Inserir %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Alterar %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Remover %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Mostrar %-42s[%c]|\n"," ",' ');
+            printf("\t\t\t\t\t\t\t\t|-> Mostrar Lista Detalhada %-26s[%c]|\n"," ",' ');
             printf("\t\t\t\t\t\t\t\t|-> Voltar %-43s[%c]|\n"," ",'*');
             printf("\t\t\t\t\t\t\t\t|________________________________________________________|\n\n\n");
             printf("\t\t\t\t\t\t\t\t                               \\ \n");
@@ -717,7 +747,7 @@ void deciderMenu(Lista_Cliente *c, Lista_Plane *p, Lista_Voo *v){
             CallTestAll();
             MENU = MENUTESTES;
         }else if(MENU == 27){ //Inserir voo via arquivo                          *função
-            v = insertListFlightFile(v);
+            InsertFlightAndClientFile(&c,&v);
             printf("Voos inseridos com sucesso!\n");
             printf("Pressione qualquer tecla para voltar ao menu\n:");
             getchar();
@@ -792,6 +822,12 @@ void deciderMenu(Lista_Cliente *c, Lista_Plane *p, Lista_Voo *v){
         }else  if(MENU == 51){ //Mostrar quadro de voos                          *função
             imprime_quadro(v);
             MENU = MENUPRINCIPAL;
+        }else if(MENU == 52){ //Mostrar Lista de clientes detalhada              *função
+            printListaClientDetails(c);
+            MENU = MENUADMCLIENTE;
+        }else if(MENU == 53){ //Mostrar Lista de voo detalhada                   *função
+            printListaFlightDetails(v);
+            MENU = MENUADMVOO;
         }else {
             MENU = MENUPRINCIPAL;
         }

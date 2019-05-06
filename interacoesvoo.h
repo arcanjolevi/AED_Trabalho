@@ -46,4 +46,16 @@ void showFlightTerminal(Lista_Voo **v);
  */
 void CallFlightTest();
 
+
+/*
+ * Lê um arquivo com as entradas.
+ * -> Endereço de ponteiro para lista de client
+ * -> Endereço de ponteiro para lista de voo
+ * <- Sem retorno
+ * Pré-condição: Nenhuma.
+ * Pós-condição: Lista alterada.
+ */
+void InsertFlightAndClientFile(Lista_Cliente **client,Lista_Voo **voo);
+
+
 #endif // INTERACOESVOO_H

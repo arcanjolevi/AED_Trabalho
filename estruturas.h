@@ -11,15 +11,15 @@
  * ---------------------------------------------
 */
 
-#define ArquivoMestre "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/RelatorioTestes.txt"
-#define ArquivoVoo "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/RelatorioVoo.txt"
-#define ArquivoClient "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/RelatorioClient.txt"
-#define ArquivoAeronave "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/RelatorioAeronave.txt"
-#define arqui_voo "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/voos.txt"
-#define arqui_cliente "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/clientes.txt"
-#define arqui_plane "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/planes.txt"
-#define relat_dados_voos "/home/labiot/Desktop/Trabalhos/TRABALHO_IES_6/data_flights.txt"
-
+#define ArquivoMestre "/home/arcanjolevi/Desktop/AED_Trabalho-master/RelatorioTestes.txt"
+#define ArquivoVoo "/home/arcanjolevi/Desktop/AED_Trabalho-master/RelatorioVoo.txt"
+#define ArquivoClient "/home/arcanjolevi/Desktop/AED_Trabalho-master/RelatorioClient.txt"
+#define ArquivoAeronave "/home/arcanjolevi/Desktop/AED_Trabalho-master/RelatorioAeronave.txt"
+#define arqui_voo "/home/arcanjolevi/Desktop/AED_Trabalho-master/voos.txt"
+#define arqui_cliente "/home/arcanjolevi/Desktop/AED_Trabalho-master/clientes.txt"
+#define arqui_plane "/home/arcanjolevi/Desktop/AED_Trabalho-master/planes.txt"
+#define relat_dados_voos "/home/arcanjolevi/Desktop/AED_Trabalho-master/data_flights.txt"
+#define ENTRADALISTAS "/home/arcanjolevi/Desktop/AED_Trabalho-master/entrada.txt"
 
 /* Estruturas
  * Versão: 2.0

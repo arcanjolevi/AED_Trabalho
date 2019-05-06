@@ -110,4 +110,13 @@ int isInClientList(Lista_Cliente *v, char *cpf);
  */
 void returnStructClient(Lista_Cliente *v, Client *voo, char *cpf);
 
+
+/* Função que imprime na tela todos os clientes da lista detalhadamente
+ * ->Ponterio da cabeça da lista
+ * pre_condição:ponteiro valido ou NULL
+ * pos_condição:Lista é impressa na tela
+ */
+void printListaClientDetails(Lista_Cliente * l);
+
+
 #endif

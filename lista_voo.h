@@ -59,6 +59,13 @@ int changeListFlight(Lista_Voo * l, Flight info, Flight desejada);
  */
 int printListFlight(Lista_Voo * l, Flight info);
 
+/* Função que imprime na tela todos os voos da lista detalhadamente
+ * ->Ponterio da cabeça da lista
+ * pre_condição:ponteiro valido ou NULL
+ * pos_condição:Lista é impressa na tela
+ */
+void printListaFlightDetails(Lista_Voo * l);
+
 /* Função que Deleta um voo da lista de voos
  * ->Ponterio da cabeça da lista
  * ->struct Flight a deletada

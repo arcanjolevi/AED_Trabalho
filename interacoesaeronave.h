@@ -8,7 +8,7 @@
 #include "validacao.h"
 #include "estruturas.h"
 #include "relatoriotesteaeronave.h"
-#define ENTRADALISTAS "/home/lucas/materias_faculdade/IES/ProgramaIES_5_AGORAVAI/entrada.txt"
+
 
 /* Insere uma aeronave via terminal
  * -> Endereço de ponteiro para lista
@@ -48,15 +48,6 @@ void showPlaneTerminal(Lista_Plane **v);
  * Pós-condição: Nunhuma.
  */
 void CallPlaneTest();
-/*
- * Lê um arquivo com as entradas.
- * -> Endereço de ponteiro para lista de client
- * -> Endereço de ponteiro para lista de voo
- * <- Sem retorno
- * Pré-condição: Nenhuma.
- * Pós-condição: Lista alterada.
- */
-void InsertFile(Lista_Cliente **client,Lista_Voo **voo);
 
 
 #endif // INTERACOESAERONAVE_H

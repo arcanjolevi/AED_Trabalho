@@ -57,6 +57,16 @@ int viewFlightList(Lista_Voo * l, Flight info){
     }
     return NULL;
 }
+void printListaFlightDetails(Lista_Voo * l){
+    while(l){
+        printf("-------------------------\n");
+        printFlight(l->voo);
+        printf("\n-----------------------");
+        l=l->prox;
+    }
+    printf("\n\nDigite qualquer tecla para voltar ao menu");
+    getchar();
+}
 Lista_Voo * deleteListFlight(Lista_Voo * l, Flight info){
     Lista_Voo * head=l;
     if(voidFlight(l))return NULL;
@@ -136,7 +146,7 @@ int assingFlight(Lista_Voo * l, Flight entrada){
     if(!checkTime(entrada.duracao))x++;
     if(!checkSig(entrada.siglaD))x++;
     if(!checkSig(entrada.siglaO))x++;
-    if(!checkAirport(entrada.nomeD,entrada.nomeO))x++;
+    //if(!checkAirport(entrada.nomeD,entrada.nomeO))x++;
     
     if(!x){
     
@@ -198,7 +208,9 @@ Lista_Voo * insertListFlightFile(Lista_Voo * l){
         
     fscanf(entrada,"%s", a.duracao);
         
-    timeArrival(a.horaC, a.horaP, a.duracao);    
+    timeArrival(a.horaC, a.horaP, a.duracao); 
+    
+     
     
     l=insertListFlight(l,a);    
     }
