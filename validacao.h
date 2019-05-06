@@ -125,4 +125,12 @@ int checkAirport(char *dest, char *orig);
   */
 int checkCpf(char *cpf);
 
+/*Função que remove espaços em brancos adicionais de uma string
+ * -> String a ser analisada
+ * <- Sem retorno
+ * Pré-condição: Nenhuma
+ * Pós-condição: Espaços em branco desnecessários são removidos
+ */
+void removeSpaces(char s[]);
+
 #endif

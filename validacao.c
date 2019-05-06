@@ -65,3 +65,16 @@ int checkAirport(char *dest, char *orig){
 int checkCpf(char *cpf){
      return (checkCpfSize(cpf) && checkCpfNum(cpf));
 }
+
+void removeSpaces(char s[]){
+	char *temp;
+	char novo[50];
+	temp = strtok(s," ");
+	while(temp != NULL){
+		strcat(novo,temp);
+		temp = strtok(NULL," ");
+		if(temp != NULL) strcat(novo," ");
+	}
+	strcpy(s,novo);
+}
+
