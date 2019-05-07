@@ -6,13 +6,16 @@ void insertPlaneTerminal(Lista_Plane **v){
     Plane temp2;
     printf("Digite o modelo da aeronave\n:");
     gets(temp);
+    removeSpaces(temp);
     while(isInPlaneList((*v),temp) || strlen(temp) == 0){
         if(strlen(temp) == 0){
             printf("Modelo inválido redigite\n:");
             gets(temp);
+            removeSpaces(temp);
         }else{
             printf("Modelo já registrado, redigite\n:");
             gets(temp);
+            removeSpaces(temp);
         }
     }
     temp2.modelo = malloc(strlen(temp) + 1);
@@ -49,9 +52,11 @@ void changePlaneTerminal(Lista_Plane **v){
     printPlaneList((*v));
     printf("\nDigite qual aeronave quer alterar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInPlaneList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Aeronave não registrada, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructPlane((*v),desejada,temp);
@@ -72,9 +77,11 @@ void deletePlaneTerminal(Lista_Plane **v){
     printPlaneList((*v));
     printf("\nDigite qual aeronave quer deletar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInPlaneList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Aeronave não registrada, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     returnStructPlane((*v),desejada,temp);
     (*v) = deleteListPlane((*v),*desejada);
@@ -94,9 +101,11 @@ void showPlaneTerminal(Lista_Plane **v){
     printPlaneList((*v));
     printf("\nDigite qual aeronave que quer mostrar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInPlaneList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Aeronave não registrada, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructPlane((*v),desejada,temp);
