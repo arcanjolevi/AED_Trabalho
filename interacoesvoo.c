@@ -6,22 +6,27 @@ void insertFlightTerminal(Lista_Voo **v){
     Flight temp2;
     printf("Digite o prefixo do voo\n:");
     gets(temp);
+    removeSpaces(temp);
     while(isInFlightList((*v),temp) || strlen(temp) == 0){
         if(strlen(temp) == 0){
             printf("Prefixo inválido, redigite\n:");
             gets(temp);
+            removeSpaces(temp);
         }else{
             printf("Prefixo já registrado, redigite\n:");
             gets(temp);
+            removeSpaces(temp);
         }
     }
     temp2.prefixo = malloc(strlen(temp) + 1);
     strcpy(temp2.prefixo,temp);
     printf("Digite o nome do aeroporto de origem\n:");
     gets(temp);
+    removeSpaces(temp);
     while(strlen(temp) == 0){
         printf("Nome inválido, redigite\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     temp2.nomeO = malloc(strlen(temp) + 1);
     strcpy(temp2.nomeO,temp);
@@ -34,13 +39,16 @@ void insertFlightTerminal(Lista_Voo **v){
     strcpy(temp2.siglaO,temp);
     printf("Digite o nome do aeroporto de destino\n:");
     gets(temp);
+    removeSpaces(temp);
     while(strlen(temp) == 0){
         printf("Nome inválido, redigite\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     while(!checkAirport(temp,temp2.nomeO)){
         printf("Destino inválido, redigite\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     temp2.nomeD = malloc(strlen(temp) + 1);
     strcpy(temp2.nomeD,temp);
@@ -74,9 +82,11 @@ void insertFlightTerminal(Lista_Voo **v){
     strcpy(temp2.duracao,temp);
     printf("Digite o tipo da aeronave\n:");
     gets(temp);
+    removeSpaces(temp);
     while(strlen(temp) == 0){
         printf("Aeronave inválida, redigite\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     temp2.tipo = malloc(strlen(temp) + 1);
     strcpy(temp2.tipo,temp);
@@ -98,9 +108,11 @@ void changeFlightTerminal(Lista_Voo **v){
     printFlightList((*v));
     printf("\nDigite qual voo quer alterar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInFlightList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Voo não registrado, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructFlight((*v),desejada,temp);
@@ -121,9 +133,11 @@ void deleteFlightTerminal(Lista_Voo **v){
     printFlightList((*v));
     printf("\nDigite qual voo quer deletar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInFlightList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Voo não registrado, redigite ou digite 's' para sair\n:");
-       gets(temp);
+        gets(temp);
+        removeSpaces(temp);
     }if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructFlight((*v),desejada,temp);
         (*v) = deleteListFlight((*v),*desejada);
@@ -144,9 +158,11 @@ void showFlightTerminal(Lista_Voo **v){
     printFlightList((*v));
     printf("\nDigite qual voo que quer mostrar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInFlightList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Voo não registrado, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructFlight((*v),desejada,temp);
@@ -155,6 +171,7 @@ void showFlightTerminal(Lista_Voo **v){
     printf("Pressione qualquer tecla para voltar ao menu\n:");
     getchar();
 }
+
 void CallFlightTest(){
     system("clear");
     int NumeroTestes = FlightInsertTest(NUM_MESTRE);
