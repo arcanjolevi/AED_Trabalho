@@ -125,67 +125,10 @@ void changeFlightTerminal(Lista_Voo **v){
     }
 }
 
-void deleteFlightTerminal(Lista_Voo **v){
-    int numeroDeVoos = countListFlight((*v));
-    char temp[150];
-    Flight *desejada = malloc(sizeof(Flight));
-    printf("Voos registrados:\n\n");
-    printFlightList((*v));
-    printf("\nDigite qual voo quer deletar\n:");
-    gets(temp);
-    removeSpaces(temp);
-    while(!isInFlightList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
-        printf("Voo não registrado, redigite ou digite 's' para sair\n:");
-        gets(temp);
-        removeSpaces(temp);
-    }if(strcmp(temp,"s") && strcmp(temp,"S")){
-        returnStructFlight((*v),desejada,temp);
-        (*v) = deleteListFlight((*v),*desejada);
-    }
-    if(numeroDeVoos == countListFlight((*v))+1){
-        printf("Voo removido com sucesso!\n");
-    }else{
-        printf("Não foi possível remover o voo\n");
-    }
-    printf("Pressione qualquer tecla para voltar ao menu\n:");
-    getchar();
-}
-
-void showFlightTerminal(Lista_Voo **v){
-    char temp[150];
-    Flight *desejada = malloc(sizeof(Flight));
-    printf("Voos registrados:\n\n");
-    printFlightList((*v));
-    printf("\nDigite qual voo que quer mostrar\n:");
-    gets(temp);
-    removeSpaces(temp);
-    while(!isInFlightList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
-        printf("Voo não registrado, redigite ou digite 's' para sair\n:");
-        gets(temp);
-        removeSpaces(temp);
-    }
-    if(strcmp(temp,"s") && strcmp(temp,"S")){
-        returnStructFlight((*v),desejada,temp);
-        printFlight(*desejada);
-    }
-    printf("Pressione qualquer tecla para voltar ao menu\n:");
-    getchar();
-}
-
-void CallFlightTest(){
-    system("clear");
-    int NumeroTestes = FlightInsertTest(NUM_MESTRE);
-    TestFlightReport(NumeroTestes,NUM_MESTRE);
-    TerminalFlightTest(NumeroTestes,NUM_MESTRE);
-    printf("\n\nClique qualquer tecla para voltar ao menu.");
-    getchar();
-}
-
-
 void InsertFlightAndClientFile(Lista_Cliente **client,Lista_Voo **voo){
     FILE *arquivo;
     char temp;
-    char tempo[100];
+    char tempo[200];
     Flight voox;
     Client pessoa;
     voox.tipo = malloc(30*sizeof(char));
@@ -193,10 +136,14 @@ void InsertFlightAndClientFile(Lista_Cliente **client,Lista_Voo **voo){
     pessoa.categoria = malloc(30*sizeof(char));
     pessoa.nome = malloc(30*sizeof(char));
     pessoa.programa = malloc(30*sizeof(char));
-    arquivo = fopen(ENTRADALISTAS,"r");
-
+    system("clear");
+    printf("Nome do arquivo que deseja abrir:\n");
+    gets(tempo);
+    arquivo = fopen(tempo,"r");
     if(arquivo == NULL){
-        printf("Erro ao ler o arquivo.");
+        printf("Erro ao ler o arquivo.\n");
+        printf("Pressione qualquer tecla para voltar ao menu:\n");
+        getchar();
         return 0;
     }else printf("Aberto com sucesso.\n");
     while(!feof(arquivo)){
@@ -225,6 +172,7 @@ void InsertFlightAndClientFile(Lista_Cliente **client,Lista_Voo **voo){
         fscanf(arquivo,"%[^;]%*c",&tempo);
         strcpy(pessoa.programa,tempo);
         fscanf(arquivo,"%[^;]%*c",&tempo);
+        removeSpaces(tempo);
         strcpy(pessoa.nome,tempo);
         fscanf(arquivo,"%[^;]%*c",&tempo);
         strcpy(pessoa.cpf,tempo);
@@ -241,7 +189,9 @@ void InsertFlightAndClientFile(Lista_Cliente **client,Lista_Voo **voo){
     free(pessoa.nome);
     free(pessoa.programa);
     fclose(arquivo);
-    printf("Pressione qualquer tecla para voltar ao menu\n:");
+    printf("Inserido com sucesso.\n");
+    printf("Pressione qualquer tecla para voltar ao menu:\n");
     getchar();
 }
+
 
