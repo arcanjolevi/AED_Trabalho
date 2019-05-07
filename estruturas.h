@@ -19,7 +19,7 @@
 #define arqui_cliente "/home/arcanjolevi/Desktop/AED_Trabalho-master/clientes.txt"
 #define arqui_plane "/home/arcanjolevi/Desktop/AED_Trabalho-master/planes.txt"
 #define relat_dados_voos "/home/arcanjolevi/Desktop/AED_Trabalho-master/data_flights.txt"
-#define ENTRADALISTAS "/home/arcanjolevi/Desktop/AED_Trabalho-master/entrada.txt"
+
 
 /* Estruturas
  * Versão: 2.0
