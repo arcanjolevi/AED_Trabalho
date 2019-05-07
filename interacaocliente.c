@@ -7,37 +7,46 @@ void insertClientTerminal(Lista_Cliente **v){
     Client temp2;
     printf("Digite o cpf do cliente\n:");
     gets(temp);
+    removeSpaces(temp);
     while(isInClientList((*v),temp) || !checkCpf(temp)){
         if(isInClientList((*v),temp)){
             printf("CPF já registrado, redigite\n:");
             gets(temp);
+            removeSpaces(temp);
         }else{
             printf("CPF inválido, redigite\n:");
             gets(temp);
+            removeSpaces(temp);
         }
     }
     strcpy(temp2.cpf,temp);
     printf("Digite a categoria do cliente\n:");
     gets(temp);
+    removeSpaces(temp);
     while(strlen(temp) == 0){
         printf("Categoria inválida, redigite\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     temp2.categoria = malloc(strlen(temp) + 1);
     strcpy(temp2.categoria,temp);
     printf("Digite o nome do programa de milhas\n:");
     gets(temp);
+    removeSpaces(temp);
     while(strlen(temp) == 0){
         printf("Programa inválido, redigite\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     temp2.programa = malloc(strlen(temp) + 1);
     strcpy(temp2.programa,temp);
     printf("Digite o nome do cliente\n:");
     gets(temp);
+    removeSpaces(temp);
     while(strlen(temp) == 0){
         printf("Nome inválido, redigite\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     temp2.nome = malloc(strlen(temp) + 1);
     strcpy(temp2.nome,temp);
@@ -66,9 +75,11 @@ void changeClientTerminal(Lista_Cliente **v){
     printClientList((*v));
     printf("\nDigite o Cpf do cliente que deseja alterar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInClientList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Cliente não registrado, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructClient((*v),desejada,temp);
@@ -89,9 +100,11 @@ void deleteClientTerminal(Lista_Cliente **v){
     printClientList((*v));
     printf("\nDigite o Cpf do cliente que deseja deletar\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInClientList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Cliente não registrado, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     returnStructClient((*v),desejada,temp);
     (*v) = deleteListClient((*v),*desejada);
@@ -111,9 +124,11 @@ void showClientTerminal(Lista_Cliente **v){
     printClientList((*v));
     printf("\nDigite o Cpf do cliente que deseja visualizar os dados\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInClientList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Cliente não registrado, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructClient((*v),desejada,temp);
@@ -128,9 +143,11 @@ void showClientTerminalUser(Lista_Cliente **v){
     Client *desejada = malloc(sizeof(Flight));
     printf("\nDigite o seu Cpf\n:");
     gets(temp);
+    removeSpaces(temp);
     while(!isInClientList((*v),temp) && strcmp(temp,"s") && strcmp(temp,"S")){
         printf("Cliente não registrado, redigite ou digite 's' para sair\n:");
         gets(temp);
+        removeSpaces(temp);
     }
     if(strcmp(temp,"s") && strcmp(temp,"S")){
         returnStructClient((*v),desejada,temp);
