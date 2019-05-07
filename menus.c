@@ -748,9 +748,6 @@ void deciderMenu(Lista_Cliente *c, Lista_Plane *p, Lista_Voo *v){
             MENU = MENUTESTES;
         }else if(MENU == 27){ //Inserir voo via arquivo                          *função
             InsertFlightAndClientFile(&c,&v);
-            printf("Voos inseridos com sucesso!\n");
-            printf("Pressione qualquer tecla para voltar ao menu\n:");
-            getchar();
             MENU = MENUADMVOO;
         }else if(MENU == 28){ //Alterar voo via arquivo                          *função
             //altera_terminal_voo(v);
